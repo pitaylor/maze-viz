@@ -1,8 +1,15 @@
 # Maze Viz
 
+### Prerequisites
+
+* nodejs
+* npm
+
+### Description
+
 This skeleton project should be used by your maze solver to render a representation of the maze as your algorithm uncovers it in realtime.
 
-Run these commands to install dependencies and start the web server (pre-requisites are node and npm):
+Run these commands to install dependencies and start the web server:
 
 ```bash
 npm install
