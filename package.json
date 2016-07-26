@@ -1,0 +1,10 @@
+{
+  "name": "maze-viz",
+  "version": "0.0.1",
+  "description": "Maze Solver Visualization",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "socket.io": "^1.4.8"
+  }
+}

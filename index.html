@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Maze Viz</title>
+    <style>
+      body {
+        font-family: helvetica, arial, sans-serif;
+      }
+    </style>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.slim.min.js"></script>
+
+    <script>
+      var socket = io();
+
+      socket.on('event', function(data) {
+        console.log('event', data);
+        // Color-in the maze based on the event data
+      });
+
+      $(function () {
+        console.log('onload')
+        // This gets called on page load, and can be used to render the grid
+        // or perform any page setup / initialization.
+      });
+    </script>
+  </head>
+  <body>
+
+    <h1>Maze Viz</h1>
+
+    <!--
+      Display a 30x30 grid
+
+      The origin (0, 0) is the upper left corner.
+    -->
+
+  </body>
+</html>
